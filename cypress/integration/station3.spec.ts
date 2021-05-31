@@ -75,7 +75,10 @@ describe('Station3', () => {
         [paddingBottom, 'padding-bottom'],
         [paddingRight, 'padding-right'],
       ].forEach(([v, name]) => {
-        expect(parseInt(v), `CSS property "${name}" of ".card" should be greater than zero`).to.gt(0)
+        expect(
+          parseInt(v),
+          `CSS property "${name}" of ".card" should be greater than zero`
+        ).to.gt(0)
       })
     })
   })
