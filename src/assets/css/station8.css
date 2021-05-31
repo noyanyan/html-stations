@@ -37,3 +37,20 @@ header {
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+@media screen and (max-width:768px) {
+    .card__description {
+        color: #282828;
+        font-size: 8px;
+    }
+  }
+
+@media screen  and (min-width:320px) {
+    .card__description {
+        display: none;
+    }
+    .card__title {
+        font-size: 10px;
+    }
+}
